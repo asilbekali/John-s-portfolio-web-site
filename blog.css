@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-section ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin: 50px;
+    padding: 0;
+}
+
+.header-section ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    width: 57px;
+    height: 43px;
+    top: 27px;
+    left: 856px;
+}
+
+.header-section ul li a:hover {
+    color: #ff6b6b;
+    transition: color 0.3s ease;
+}
