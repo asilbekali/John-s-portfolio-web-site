@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header-section ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+    margin: 50px 200px 50px 50px;
+    padding: 0;
+}
+
+.header-section ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    width: 57px;
+    height: 43px;
+    top: 27px;
+    left: 856px;
+}
+
+.header-section ul li a:hover {
+    color: #ff6b6b;
+    transition: color 0.3s ease;
+}
+
+.main-body {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.vide-cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.vide-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 50px;
+}
+
+.textlar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.soz {
+    margin-top: 150px;
+    margin-left: 55px;
+    font-size: 25px;
+}
+
+.lower-part {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+    font-size: 50px;
+}
+
+.lower-part i {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    transition: all 0.2s;
+}
+
+.lower-part i:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    transition: all 0.2s;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+@media (max-width: 768px) {
+    .main-body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .containter {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .containter img {
+        width: 150px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .text {
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .text h1 {
+        font-size: 28px;
+        justify-content: center;
+    }
+
+    .text p {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+    }
+
+    .text button {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .header-section ul {
+        margin: 20px;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .header-section ul li a {
+        width: auto;
+        height: auto;
+        font-size: 14px;
+    }
+
+    .vide-cards {
+        align-items: center;
+        gap: 30px;
+    }
+
+    .vide-card {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin: 0;
+        padding: 20px;
+        width: 90%;
+    }
+
+    .vide-card img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        border-radius: 4px;
+    }
+
+    .textlar {
+        gap: 10px;
+        text-align: center;
+    }
+
+    .soz {
+        margin-top: 80px;
+        text-align: center;
+        margin-right: 50px;
+    }
+
+    .lower-part {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .lower-part i {
+        box-shadow: none;
+    }
+
+    .end {
+        font-size: 12px;
+        padding: 20px;
+        text-align: center;
+    }
+}
