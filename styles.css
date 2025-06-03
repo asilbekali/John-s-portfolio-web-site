@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .header-section ul {
@@ -10,7 +11,8 @@
     align-items: center;
     gap: 20px;
     list-style: none;
-    margin: 50px;
+    font-size: 20px;
+    margin: 50px 200px 50px 50px;
     padding: 0;
 }
 
@@ -186,7 +188,7 @@
 
     .containter {
         display: flex;
-        flex-direction: column-reverse; /* rasm yuqorida, text pastda */
+        flex-direction: column-reverse;
         align-items: center;
         gap: 20px;
     }
